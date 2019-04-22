@@ -43,13 +43,6 @@ public:
 	}
 };
 
-int main() {
-	string s = "babad";
-	cout << "result = " << Solution::longestPalindrome("babad");
-	char c;
-	cin >> c;
-}
-
 //https://leetcode.com/submissions/detail/224195150/
 //the defferent between me and other answer is that they begin with center
 //because Palindromic Substring is little, their runtime is faster than mine
